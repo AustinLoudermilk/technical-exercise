@@ -1,0 +1,52 @@
+
+:root {
+  --background: #ffeced;
+  --primary: #a8b5ae;
+  --secondary: #92929c;
+  --text-dark: #5c5c70;
+  --text-light: #ffeced;
+  --error: #a04a4a;
+}
+
+* {
+  font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
+  user-select: none;
+}
+
+.btn {
+  background-color: var(--primary);
+  border-radius: 3px;
+  border: none;
+  margin: 0;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: baseline;
+  white-space: nowrap;
+  color: var(--text-light);
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.btn:hover {
+  background-color: var(--secondary);
+}
+
+.btn:active {
+  background-color: var(--primary);
+  box-shadow: none;
+}
+
+h2 {
+  text-align: center;
+  color: var(--text-dark);
+}
+
+.card {
+  background-color: var(--primary);
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  height: 64px;
+  padding: 8px;
+}

@@ -49,6 +49,7 @@ export default {
 .results-question {
   text-align: center;
   margin-bottom: 8px;
+  font-size: 0.8em;
   color: var(--text-light)
 }
 
